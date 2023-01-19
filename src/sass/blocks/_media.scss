@@ -54,8 +54,14 @@
             font-size: 19px;
             line-height: 26px;
         } 
-    }   
-    
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 550px;
+            }
+        }
+    }      
 }
 @media (max-width: 578px) {
     .header {
@@ -132,6 +138,14 @@
             text-align: center;
         } 
     }   
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 300px;
+            }
+        }
+    }  
 }
 @media (max-width: 320px) {
     .header {
