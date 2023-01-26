@@ -325,4 +325,14 @@
             right: 10px;
         }
     }
+    .footer__info {
+        width: 250px;
+        padding: 38px 20px 40px 20px;
+        &__address {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 19px;
+        }
+    }
 }
