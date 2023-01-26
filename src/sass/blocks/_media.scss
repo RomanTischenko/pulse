@@ -102,6 +102,9 @@
             margin-left: 20px;
         }
     }
+    .overlay {
+        width: 579px;
+    }
     
     
 }
@@ -302,5 +305,24 @@
                 margin-bottom: 0;
             }
         }       
+    }
+    .overlay {
+        width: 320px;
+    }
+    .modal {
+        padding: 38px 40px 40px 22px;
+        width: 300px;
+        input {
+            width: 250px;
+        }
+        .button {
+            width: 80%;
+            font-size: 14px;
+
+        }
+        &__close {
+            top: 10px;
+            right: 10px;
+        }
     }
 }
