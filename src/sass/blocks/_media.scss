@@ -16,6 +16,9 @@
     .advantages {
         padding: 0 20px;
     }
+    .consultation {
+        margin-top: 20px;
+    }
 }
 @media (max-width: 768px) {
     .header {
@@ -41,6 +44,19 @@
                 margin-bottom: 0;
             }
         }
+    }
+    .consultation {
+        padding: 60px 0 92px 0;
+        &__descr {
+            text-align: center;
+        }
+        &__header {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 0 auto; 
+        margin-top: 30px;
     }
 }
 @media (max-width: 576px) {
@@ -136,4 +152,12 @@
             }
         }
     }
+    .consultation {
+        &__header {
+            font-size: 27px;
+            line-height: 38px;
+        }
+    }
+    
+  
 }
