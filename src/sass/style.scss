@@ -1,6 +1,5 @@
 @import 'base/variables.scss';
 @import 'base/mixins.scss';
-@import 'blocks/media.scss';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
@@ -18,6 +17,10 @@
 @import 'blocks/forms.scss';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/media.scss';
+
 
 
 

@@ -19,6 +19,31 @@
     .consultation {
         margin-top: 20px;
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    }
+    .reviews {
+        &-item {
+            flex-direction: column;
+            text-align: center;
+            &__content {
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+            &__title {
+                text-align: center;
+            }
+            &__text {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width: 768px) {
     .header {
@@ -48,7 +73,7 @@
     .consultation {
         padding: 60px 0 92px 0;
         &__descr {
-            text-align: center;
+            text-align: center; 
         }
         &__header {
             text-align: center;
@@ -57,6 +82,14 @@
     .feed-form {
         margin: 0 auto; 
         margin-top: 30px;
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 @media (max-width: 576px) {
@@ -158,6 +191,11 @@
             line-height: 38px;
         }
     }
-    
-  
+    .carousel {
+        &__inner {
+            width: 100%;
+
+        }
+    }
+
 }
